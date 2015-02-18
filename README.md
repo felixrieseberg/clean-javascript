@@ -1,2 +1,2 @@
-# clean-javascript
-JSCS and JSHint Configuration for Clean JavaScript
+# Clean JavaScript with JSCS and JSHint
+This repo contains my (somewhat draconian) rules for JavaScript development. I confidenlty believe that these configurations will force you to write readable and good code.
