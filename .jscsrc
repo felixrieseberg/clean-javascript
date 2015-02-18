@@ -26,7 +26,7 @@
     "requireParenthesesAroundIIFE": true,
     "requireSpacesInConditionalExpression": true,
     "disallowSpacesInNamedFunctionExpression": {
-        "beforeOpe ningRoundBrace": true
+        "beforeOpeningRoundBrace": true
     },
     "disallowSpacesInFunctionDeclaration": {
         "beforeOpeningRoundBrace": true
