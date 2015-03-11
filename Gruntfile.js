@@ -2,7 +2,7 @@ module.exports = function (grunt) {
     // load all grunt tasks matching the `grunt-*` pattern
     require('load-grunt-tasks')(grunt);
 
-    var files = ['Gruntfile.js', '**/*.js', '!./node_modules/**'];
+    var files = ['Gruntfile.js', 'server.js'];
 
     grunt.initConfig({
         jshint: {
@@ -24,5 +24,5 @@ module.exports = function (grunt) {
 
     grunt.registerTask('codestyle', ['jshint', 'jscs']);
     grunt.registerTask('test', ['codestyle']);
-    grunt.registerTask('default', []);
+    grunt.registerTask('default', ['test']);
 };
